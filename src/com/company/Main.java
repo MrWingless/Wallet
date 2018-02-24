@@ -6,7 +6,7 @@ import java.util.Date;
 public class Main {
 
     public static void main(String[] args) throws SQLException {
-
+        /**
         // LOGGING TEST :
         System.out.println("haha");
         Date date = new Date();
@@ -21,12 +21,16 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Logger.log("Hmm... \n yes");
+        Logger.log("Hmm... \n yes"); **/
 
+        /**
+        // DB TEST :---- DOESN*T WORK --- TODO
         DatabaseManager dbM = new DatabaseManager();
         dbM.getPlayer("Peter");
         dbM.getPlayer("Peter");
-        dbM.getPlayer("Peter");
+        dbM.getPlayer("Peter"); **/
+
+
 
     }
 }

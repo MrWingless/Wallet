@@ -1,9 +1,9 @@
 package com.company;
 
 public class Player {
-    String username;
-    int balanceVersion;
-    double balance;
+    private String username;
+    private int balanceVersion;
+    private double balance;
 
     public Player(String username, int balanceVersion, double balance) {
         this.username = username;
@@ -11,5 +11,15 @@ public class Player {
         this.balance = balance;
     }
 
+    public String getUsername() {
+        return username;
+    }
 
+    public int getBalanceVersion() {
+        return balanceVersion;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
 }
