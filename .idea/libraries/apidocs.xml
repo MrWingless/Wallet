@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/hsqldb/lib/hsqldb.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/hsqldb/doc/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/hsqldb/doc/verbatim/src" />
+      <root url="file://$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/src" />
+      <root url="file://$PROJECT_DIR$/hsqldb/integration/hibernate/src" />
+      <root url="file://$PROJECT_DIR$/hsqldb/integration/hibernate_3_3_1/src" />
+      <root url="file://$PROJECT_DIR$/hsqldb/src" />
+    </SOURCES>
+  </library>
+</component>

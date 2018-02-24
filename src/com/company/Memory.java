@@ -8,19 +8,21 @@ public final class Memory {
     private static final Logger.LogType logType = Logger.LogType.MEMORY;
     public static final ConcurrentHashMap<String, Player> playersInMemory = new ConcurrentHashMap<>();
 
-    public boolean playerExistsInMemory(Player p){
-        return playersInMemory.containsKey(p.getUsername());
+    public static boolean playerExistsInMemory(String username){
+        return playersInMemory.containsKey(username);
     }
 
-    public Player getPlayer(String username){
-        if (playersInMemory.containsKey(username)){
+    public static Player getPlayer(String username){
+        if (playerExistsInMemory(username)){
             return playersInMemory.get(username);
         } else {
-            return DatabaseManager.getPlayer(username);
+            Player p = DatabaseManager.getPlayer(username);
+            playersInMemory.put(username, p);
+            return p;
         }
     }
 
-    private void saveData(){
+    public static void saveData(){
         Logger.log(logType,"Saving Players from Memory into the Database : Started");
         for (Map.Entry<String, Player> entry : playersInMemory.entrySet()){
             try {

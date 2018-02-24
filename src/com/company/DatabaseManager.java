@@ -12,7 +12,7 @@ public final class DatabaseManager {
     public DatabaseManager() {
         try {
             Class.forName("org.hsqldb.jdbc.JDBCDriver");
-            //Class.forName("com.company.org.hsqldb.jdbc.JDBCDriver"); //hsqldb.src.org.hsqldb.jdbc.JDBCDriver.java");
+            //Class.forName("hsqldb.src.org.hsqldb.jdbc.JDBCDriver.java");
             connection = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/walletdb", "SA", "");
             statement = connection.createStatement();
         } catch (ClassNotFoundException | SQLException e) {
@@ -25,13 +25,13 @@ public final class DatabaseManager {
         try {
             result = statement.executeQuery("SELECT USERNAME, BALANCE_VERSION, BALANCE FROM PLAYER");
 
-            if (result.wasNull()) {
+            if (result.getRow() < 1) {
                 Logger.log(logType, "The player Does not exist in our Database. Creating : " + username);
                 player = new Player(username, 0, 0);
-                Logger.log(logType, "New Player created : " + player.toString());
+                Logger.log(logType, "New Player created : " + player.toString() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
             } else {
                 player = new Player(result.getString("USERNAME"), result.getInt("BALANCE_VERSION"), result.getDouble("BALANCE"));
-                Logger.log(logType, "Found Player : " + player.toString());
+                Logger.log(logType, "Found Player : " + player.toString() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
             }
         } catch (SQLException e) {
             e.printStackTrace();

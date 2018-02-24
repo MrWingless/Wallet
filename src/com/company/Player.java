@@ -1,6 +1,7 @@
 package com.company;
 
 public class Player {
+    private static final Logger.LogType logType = Logger.LogType.PLAYER;
     private String username;
     private int balanceVersion;
     private double balance;
@@ -21,5 +22,12 @@ public class Player {
 
     public double getBalance() {
         return balance;
+    }
+
+    public void changeBalance(double change){
+        double oldBalance = balance;
+        balance = balance + change;
+        balanceVersion++;
+        Logger.log(logType, "Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
     }
 }

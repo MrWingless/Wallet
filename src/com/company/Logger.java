@@ -21,7 +21,8 @@ public class Logger {
         LOGGER,
         MEMORY,
         WALLET_SERVER,
-        JOB_SERVER
+        CLIENT,
+        ERROR, WALLET_SERVER_WORKER, TRANSACTION, PLAYER, JOB_SERVER
     }
 
     /**
