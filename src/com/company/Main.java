@@ -1,10 +1,11 @@
 package com.company;
 
+import java.sql.SQLException;
 import java.util.Date;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
         // LOGGING TEST :
         System.out.println("haha");
@@ -21,6 +22,11 @@ public class Main {
             e.printStackTrace();
         }
         Logger.log("Hmm... \n yes");
+
+        DatabaseManager dbM = new DatabaseManager();
+        dbM.getPlayer("Peter");
+        dbM.getPlayer("Peter");
+        dbM.getPlayer("Peter");
 
     }
 }

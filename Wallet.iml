@@ -7,6 +7,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/hsqldb/doc/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/hsqldb/doc/verbatim/src" />
+          <root url="file://$MODULE_DIR$/hsqldb/integration/extAuthWithSpring/src" />
+          <root url="file://$MODULE_DIR$/hsqldb/integration/hibernate/src" />
+          <root url="file://$MODULE_DIR$/hsqldb/integration/hibernate_3_3_1/src" />
+          <root url="file://$MODULE_DIR$/hsqldb/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
-
