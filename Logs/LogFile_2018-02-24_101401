@@ -1,0 +1,12 @@
+2018-02-24_101401 LOGGER Created new Log File!
+2018-02-24_101401 JOB_SERVER Creating Server
+2018-02-24_101401 JOB_SERVER Starting Server
+2018-02-24_101401 TRANSACTION Making a Transaction 100555 with Amount : 30.0 to James
+2018-02-24_101401 DATABASE The player Does not exist in our Database. Creating : James
+2018-02-24_101401 DATABASE New Player created : com.company.Player@7c3df479 Balance : 0.0 BalanceVersion : 0
+2018-02-24_101401 PLAYER Balance changed from : 0.0 to 30.0 :: BalanceVersion 1
+2018-02-24_101401 TRANSACTION Making a Transaction 100556 with Amount : -10.0 to James
+2018-02-24_101401 PLAYER Balance changed from : 30.0 to 20.0 :: BalanceVersion 2
+2018-02-24_101501 JOB_SERVER Triggering Player Data Save Job!
+2018-02-24_101501 MEMORY Saving Players from Memory into the Database : Started
+2018-02-24_101501 MEMORY Saving Players from Memory into the Database : Completed

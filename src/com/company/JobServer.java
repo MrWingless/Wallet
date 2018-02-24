@@ -4,7 +4,7 @@ public class JobServer implements Runnable {
     private static final Logger.LogType logType = Logger.LogType.JOB_SERVER;
     private Thread thread;
     private boolean running = true;
-    private int sleepTimeMilliseconds = 60000; // 1 minute (5 = 300000)
+    private int sleepTimeMilliseconds = 6000; // 1 minute (5 = 300000)
 
     public JobServer() {
         Logger.log(logType, "Creating Server");
@@ -21,6 +21,7 @@ public class JobServer implements Runnable {
             }
             Logger.log(logType, "Triggering Player Data Save Job!");
             Memory.saveData();
+            running = false; // TODO : Remove this line
         }
     }
 

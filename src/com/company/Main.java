@@ -9,6 +9,9 @@ public class Main {
         int port = 7142;
         DatabaseManager dbm = new DatabaseManager();
 
+        JobServer js = new JobServer();
+        js.start();
+
         Transaction t1 = new Transaction("James", 100555, 30);
         Transaction t2 = new Transaction("James", 100556, -10);
 
@@ -45,8 +48,6 @@ public class Main {
          WalletServer ws = new WalletServer(port);
          ws.start();
 
-         JobServer js = new JobServer();
-         js.start();
 
          Client c = new Client();
          c.start();

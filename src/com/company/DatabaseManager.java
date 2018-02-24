@@ -43,17 +43,18 @@ public final class DatabaseManager {
     public static void savePlayer(Player player) throws SQLException {
         if (playerExists(player)) {
             statement.executeQuery("UPDATE PLAYER SET BALANCE = " + player.getBalance() + ", BALANCE_VERSION = " + player.getBalanceVersion() + " WHERE USERNAME = '" + player.getUsername() + "'");
-            Logger.log(logType, "Database : Player Updated successfully : " + player.getUsername());
+            Logger.log(logType, "Player Updated successfully : " + player.getUsername());
         } else {
-            statement.executeQuery("INSERT INTO PLAYER (USERNAME, BALANCE_VERSION, BALANCE) VALUES (" + player.getUsername() + ", " + player.getBalanceVersion() + ", " + player.getBalance() + ")");
-            Logger.log(logType, "Database : Player Inserted successfully : " + player.getUsername());
+            statement.executeQuery("INSERT INTO PLAYER (USERNAME, BALANCE_VERSION, BALANCE) VALUES ('" + player.getUsername() + "', " + player.getBalanceVersion() + ", " + player.getBalance() + ")");
+            Logger.log(logType, "Player Inserted successfully : " + player.getUsername());
         }
     }
 
     private static boolean playerExists(Player player) throws SQLException {
         boolean answer = false;
         result = statement.executeQuery("SELECT COUNT(*) FROM PLAYER WHERE USERNAME = '" + player.getUsername() + "'");
-        if (result.getInt("COUNT(*)") > 0) {
+        result.next();
+        if (result.getInt("C1") > 0) {
             answer = true;
         }
         return answer;
