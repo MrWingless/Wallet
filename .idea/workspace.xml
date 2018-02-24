@@ -1,9 +1,1239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cc9438f-92bc-4293-b422-7bed495d6f27" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="4cc9438f-92bc-4293-b422-7bed495d6f27" name="Default" comment="Thinking of basic Structure">
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/memorydbmanager.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/runManager.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/runManagerSwing.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/runServer.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/runUtil.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/bin/runWebServer.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/DocBookUtil.groovy" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/antivy-setup.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build-dist.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build-dist.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build-docbook.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.hsqldb.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.hsqldbtest.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.javadoc.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.sqltool.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.test.suite.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/cfdistro.bash" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/clean.test.suite.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/dbuInstallSheetsWrapper.groovy" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle-gui" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle-gui.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle-ivyxml-plugin-0.3.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle-javaPropFile-plugin-0.6.0.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle/wrapper/gradle-wrapper.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradlew" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gradlew.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gui-initial.setting" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/gui-welcome.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/hsqldb.bnd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/ivy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/ivysettings-sample.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/jdkcodeswitch.list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/mvn-pub.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/rng-catalog-template.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/run.test.suite.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/setenv.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/settings.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/test.dbmd.convert.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/test.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/build/test.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc-src/changelist_2_0.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc-src/hsqldb_lic.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc-src/hypersonic_lic.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/allclasses-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/allclasses-noframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/constant-values.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/deprecated-list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/help-doc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/hsqldbs.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/index-all.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/javadoc.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/Trigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/AuthBeanMultiplexer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/AuthFunctionBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/HsqldbSlaveAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/JaasAuthBean.UPCallbackHandler.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/JaasAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/LdapAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/LdapAuthBeanTester.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/AuthBeanMultiplexer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/AuthFunctionBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/HsqldbSlaveAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/JaasAuthBean.UPCallbackHandler.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/JaasAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/LdapAuthBean.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/class-use/LdapAuthBeanTester.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/auth/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/class-use/Trigger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/SqlFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/SqlTool.SqlToolException.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/SqlTool.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/class-use/SqlFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/class-use/SqlTool.SqlToolException.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/class-use/SqlTool.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/cmdline/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCArray.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCArrayBasic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCBlob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCBlobClient.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCBlobFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCCallableStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCClob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCClobClient.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCClobFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCColumnMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCCommonDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCConnectionEventListener.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCDataSourceFactory.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCDatabaseMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCDriver.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCNClob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCParameterMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCPool.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCPreparedStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCResultSet.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCResultSetMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCRowId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCSQLXML.SAX2XMLStreamWriter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCSQLXML.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCSavepoint.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/JDBCUtil.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCArray.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCArrayBasic.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCBlob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCBlobClient.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCBlobFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCCallableStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCClob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCClobClient.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCClobFile.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCColumnMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCCommonDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCConnectionEventListener.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCDataSourceFactory.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCDatabaseMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCDriver.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCNClob.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCParameterMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCPool.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCPreparedStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCResultSet.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCResultSetMetaData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCRowId.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCSQLXML.SAX2XMLStreamWriter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCSQLXML.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCSavepoint.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCStatement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/class-use/JDBCUtil.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCPooledConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCPooledDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCXAConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCXAConnectionWrapper.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCXADataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCXAResource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/JDBCXID.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCPooledConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCPooledDataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCXAConnection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCXAConnectionWrapper.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCXADataSource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCXAResource.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/class-use/JDBCXID.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/jdbc/pool/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/FrameworkLogger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/RCData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/class-use/FrameworkLogger.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/class-use/RCData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/DbBackup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/DbBackupMain.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/class-use/DbBackup.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/class-use/DbBackupMain.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/lib/tar/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/SqlFileEmbedder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/TriggerSample.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/class-use/SqlFileEmbedder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/class-use/TriggerSample.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/sample/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/Server.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/ServerAcl.AclFormatException.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/ServerAcl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/WebServer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/class-use/Server.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/class-use/ServerAcl.AclFormatException.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/class-use/ServerAcl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/class-use/WebServer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/server/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/MainInvoker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/class-use/MainInvoker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/package-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/package-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/package-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/org/hsqldb/util/package-use.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/overview-frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/overview-summary.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/overview-tree.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/package-list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/apidocs/serialized-form.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/branding-frag.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/changelist_2_0.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/docbook.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/accesscontrol-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/book-ind.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/book-pref.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/building-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/builtinfunctions-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/compatibility-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/dataaccess-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/databaseobjects-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/dbproperties-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/deployment-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/dummy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/eclipse-gradle-cfg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/eclipse-gradle-invoke.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/filelinks-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/gradle-gui.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/guide.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/guide.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/listeners-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/lists-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/management-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/openoffice-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/running-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/sessions-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/sql-ind.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/sqlgeneral-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/sqlroutines-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/texttables-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/triggers-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/guide/unix-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/hsqldb_lic.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/hypersonic_lic.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/annot-close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/annot-open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/blank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/10.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/10.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/11.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/11.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/12.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/12.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/13.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/13.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/14.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/14.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/15.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/15.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/16.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/17.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/18.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/19.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/20.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/21.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/22.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/23.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/24.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/25.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/26.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/27.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/28.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/29.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/30.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/4.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/4.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/5.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/5.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/6.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/7.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/7.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/8.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/8.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/9.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/callouts/9.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/caution.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/caution.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/caution.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/caution.tif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/caution.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/home.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/important.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/next.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/note.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/prev.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/tip.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/up.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/colorsvg/warning.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/draft.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/home.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/home.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/home.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/important.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/important.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/important.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/important.tif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/next.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/next.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/note.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/note.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/note.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/note.tif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/prev.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/prev.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/prev.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/tip.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/tip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/tip.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/tip.tif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/toc-blank.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/toc-minus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/toc-plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/up.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/up.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/warning.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/warning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/warning.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/db/warning.tif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/hypersql_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/images/hypersql_logo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/odbc.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/readme-docauthors.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/book-pref.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/dbm-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/dummy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/filelinks-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/html-report.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/rejreport-sample.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/sqltool-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/systempls-app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/test-utility-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/transfer-tool-chapt.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/util-guide.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/util-guide/util-guide.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/acl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/csv-sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/dsv-sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/hsqldb.cfg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/hsqldb.init" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/html-report.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/jaas.cfg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/ldap-exerciser.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/pl.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/plsql.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/sampledata.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/server.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/sample/sqltool.rc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/Tokens.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/Trigger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/sample/SqlFileEmbedder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/sample/Testdb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/sample/TriggerSample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/server/Servlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/server/WebServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/src/org/hsqldb/test/TestBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/testrun/sqltool/sqljrt.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/doc/verbatim/testrun/sqltool/sqlpsm.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/build.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/ivy-projsetup.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/ivy.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/ivysettings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/jul.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/resources/beandefs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/resources/jaasbeans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/resources/jaasldapbeans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/resources/ldapbeans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/resources/slavebeans.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/src/org/hsqldb/sample/JdbcAppClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/extAuthWithSpring/src/org/hsqldb/sample/SpringExtAuth.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/hibernate/src/org/hibernate/dialect/HSQLDialect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/hibernate_3_3_1/src/org/hibernate/dialect/HSQLDialect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/jackrabbit/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/jackrabbit/resources/org/apache/jackrabbit/core/journal/hsqldb.ddl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/jackrabbit/resources/org/apache/jackrabbit/core/persistence/bundle/hsqldb.ddl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/jackrabbit/resources/org/apache/jackrabbit/core/persistence/db/hsqldb.ddl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/integration/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/lib/hsqldb.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/lib/servlet-2_3-fcs-classfiles.zip" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/lib/sqltool.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/StartupParameters.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/acl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/csv-sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/dsv-sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/hsqldb.cfg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/hsqldb.init" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/hsqldb.service" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/html-report.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/j-sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/jaas.cfg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/ldap-exerciser.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/load_binding_lu.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/nullempty.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/pl.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/plsql.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.pl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sample.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sampledata.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/server.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/sample/sqltool.rc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ClientConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ClientConnectionHTTP.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ColumnBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ColumnSchema.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Constraint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ConstraintCore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Database.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/DatabaseManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/DatabaseType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/DatabaseURL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Expression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionAccessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionAggregate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionArithmetic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionArrayAggregate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionColumn.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionColumnAccessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionLike.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionLogical.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionOp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionOrderBy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ExpressionValue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/FunctionCustom.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/FunctionSQL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/FunctionSQLInvoked.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/HsqlDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/HsqlException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/HsqlNameManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Like.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/NumberSequence.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/OpTypes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserDDL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserDML.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserDQL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserRoutine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ParserTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/QueryExpression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/QuerySpecification.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RangeGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RangeVariable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RangeVariableJoined.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RangeVariableResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/ReferenceObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Routine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RoutineSchema.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Row.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowAVL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowAVLDisk.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowAVLDiskData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowAVLDiskLarge.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowActionBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/RowDiskDataChange.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Scanner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Schema.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SchemaManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SchemaObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SchemaObjectSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Server.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Session.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SessionContext.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SessionData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SessionInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SessionManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SetFunction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SortAndSlice.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/SqlInvariants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Statement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementCompound.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementCursor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementDML.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementDMQL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementExpression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementInsert.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementProcedure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementQuery.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementResultUpdate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSchema.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSchemaDefinition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSession.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSignal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/StatementTypes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Table.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TableBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TableDerived.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TableUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TableWorks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TextTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Token.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Tokens.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TransactionManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TransactionManager2PL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TransactionManagerCommon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TransactionManagerMV2PL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TransactionManagerMVCC.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/Trigger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TriggerDef.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TriggerDefSQL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/TypeInvariants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/View.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/AuthBeanMultiplexer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/AuthFunctionBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/AuthUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/DenyException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/HsqldbSlaveAuthBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/JaasAuthBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/LdapAuthBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/auth/LdapAuthBeanTester.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/SqlFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/SqlTool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/SqlToolError.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/SqlToolSprayer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/SqltoolRB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool.flex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/Calculator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/FileRecordReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlFile.banner.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlFile.banner_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlFileScanner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlTool.syntax.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/SqlTool.syntax_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/Token.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/TokenList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/TokenSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/bottom-boilerplate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/buffer.help.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/buffer.help_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/d.options.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/d.options_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/dsv.options.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/dsv.options_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/errorat.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/errorat_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/macro.help.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/macro.help_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/pl.assign.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/pl.control.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/pl.help.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/pl.help_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/raw.leadin.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/raw.leadin_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/rejectreport.bottom.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/rejectreport.bottom_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/rejectreport.row.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/rejectreport.top.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/rejectreport.top_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/special.help.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/special.help_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool/top-boilerplate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool_de.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/cmdline/sqltool_nl.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/dbinfo/DITableInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationFull.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/dbinfo/DatabaseInformationMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/error/Error.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/error/ErrorCode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/Index.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/IndexAVL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/IndexAVLMemory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/NodeAVL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/NodeAVLDisk.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/index/NodeAVLDiskLarge.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCArray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCArrayBasic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCBlob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCBlobClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCBlobFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCCallableStatement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCClob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCClobClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCClobFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCColumnMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCCommonDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCConnectionEventListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCDataSourceFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCDatabaseMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCNClob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCParameterMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCPreparedStatement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCResultSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCResultSetMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCRowId.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCSQLXML.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCSavepoint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCStatement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCStatementBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/JDBCUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCPooledConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCPooledDataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAConnectionWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXADataSource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXAResource.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbc/pool/JDBCXID.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/jdbcDriver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/AppendableException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ArrayCounter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ArrayListIdentity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ArraySort.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ArrayUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/BaseList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/BasicTextJdkLogFormatter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/CharArrayWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ClosableByteArrayOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ClosableCharArrayWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/Collection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/CountUpDownLatch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/CountdownInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/DataOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/DoubleIntIndex.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/FileAccess.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/FileArchiver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/FileUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/FrameworkLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HashMappedList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HashSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlArrayHeap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlArrayList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlByteArrayInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlByteArrayOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlDeque.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlHeap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlTaskQueue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlThreadFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/HsqlTimer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/InOutUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/InputStreamInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/InputStreamWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntIndex.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntKeyHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntKeyHashMapConcurrent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntKeyIntValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntKeyLongValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntLookup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/IntValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/Iterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/KMPSearchAlgorithm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LineGroupReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LineReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongDeque.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongKeyHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongKeyIntValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongKeyLongValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongLookup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/LongValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/MultiValueHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/Notified.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ObjectComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/OrderedHashSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/OrderedIntHashSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/OrderedIntKeyHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/OrderedLongHashSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/OrderedLongKeyHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/RCData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ReadWriteLockDummy.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ReaderInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/RefCapablePropertyResourceBundle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/RefCapableRBInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/Set.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/SimpleLog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/StopWatch.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/Storage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/StringComparator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/StringConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/StringInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/StringUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ThreadFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/ValidatingResourceBundle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/WrapperIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/java/JavaSystem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/DbBackup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/DbBackupMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/PIFData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/PIFGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/RB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarFileInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarFileOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarGeneratorMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarHeaderField.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarMalformatException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/TarReaderMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/DbBackup.syntax.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/DbBackup.syntax_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/TarGenerator.syntax.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/TarGenerator.syntax_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/TarReader.syntax.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/TarReader.syntax_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/listing.format.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb/listing.format_de.text" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/lib/tar/rb_de.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/BaseHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/BitMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/HashIndex.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/ReusableObjectCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/ValuePool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/map/ValuePoolHashMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RangeIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowIterator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorClient.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorDataChange.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorDataChangeMemory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/navigator/RowSetNavigatorDataTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/BitMapCachedObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/BlockObjectStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/Cache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/CachedObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/CachedObjectBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/Crypto.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataFileCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataFileCacheSession.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataFileDefrag.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataSpaceManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataSpaceManagerBlocks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DataSpaceManagerSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/DirectoryBlockCachedObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/EventLogInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/HsqlDatabaseProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/HsqlProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/IntArrayCachedObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LobManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LobStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LobStoreInJar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LobStoreMem.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LobStoreRAFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/LockFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/Log.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/Logger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/PersistentStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/PersistentStoreCollection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/PersistentStoreCollectionDatabase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/PersistentStoreCollectionSession.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAFileHybrid.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAFileInJar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAFileNIO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAFileSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAShadowFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RAStorageWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RandomAccessInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVLDisk.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVLDiskData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVLHybrid.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVLHybridExtended.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreAVLMemory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/RowStoreDataChange.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/ScriptRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/SimpleStore.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TableSpaceManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TableSpaceManagerBlocks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TableSpaceManagerSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextFileReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextFileReader16.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextFileReader8.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextFileSettings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/persist/TextTableStorageManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/ResourceBundleHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/info-column-remarks.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/info-table-remarks.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/information-schema.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/jdklogging-default.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/lob-schema.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/org_hsqldb_DatabaseClassLoader.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/org_hsqldb_server_Server_messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/sql-state-messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/sql-state-messages_es.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/webserver-content-types.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/resources/webserver-pages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/result/Result.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/result/ResultConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/result/ResultLob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/result/ResultMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/result/ResultProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/GrantConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/Grantee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/GranteeManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/Right.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/User.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rights/UserManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputBinary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputBinary180.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputBinaryDecode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputTextLog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowInputTextQuoted.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputBinary.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputBinary180.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputBinaryEncode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputTextLog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/rowio/RowOutputTextQuoted.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/ConnectionTypesSample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/DatabaseManagerSample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/FindFile.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/SqlFileEmbedder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/Testdb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/TriggerSample.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/sample/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptReaderBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptReaderDecode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptReaderText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptWriterBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptWriterEncode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/scriptio/ScriptWriterText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/HsqlServerFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/HsqlSocketFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/HsqlSocketFactorySecure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/HsqlSocketRequestHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/OdbcPacketInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/OdbcPacketOutputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/OdbcPreparedStatement.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/OdbcUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/PgType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/RecoverableOdbcFailure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/Server.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/ServerAcl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/ServerConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/ServerConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/ServerConstants.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/ServerProperties.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/Servlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/StatementPortal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/WebServer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/WebServerConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/server/package.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/AllTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/BlaineTrig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/ClearTests.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/JDBCBench.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestAcl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestAllTypes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestBase.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestBench.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestCacheSize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestCascade.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestCollation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestDataStructures.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestDatabaseMetaData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestDateTime.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestDatetimeSimple.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestDbBackup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestGroupByHaving.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestHTTPKeepAlive.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestHarness.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestHashStructures.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestINPredicateParameterizationAndCorrelation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestInstantiation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestJDBCGeneratedColumns.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestJDBCSavepoints.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestJavaFunctions.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestKarl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestLibSpeed.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestLikePredicateOptimizations.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestLobs.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestMerge.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestMultiInsert.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestNullInUnion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestPeriodPredicates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestPreparedStatements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestPreparedSubQueries.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestQuotes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSchemaParse.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestScript.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestScriptRunner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestScripts.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSql.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSqlPeriodPredicates.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSqlPersistent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestStoredProcedure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSubQueriesInPreparedStatements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestSubselect.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestTextTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestTextTables.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestTriggers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestTypeConversion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestUpdatableResultSets.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestUpdatableResults.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TestViewAsterisks.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/TriggerClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/test/Waiter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/ArrayType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BinaryData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BinaryType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BinaryUUIDType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BitType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BlobData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BlobDataID.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BlobInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BlobType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/BooleanType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/CharacterType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/Charset.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/ClobData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/ClobDataID.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/ClobInputStream.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/ClobType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/Collation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/DTIType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/DateTimeType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/IntervalMonthData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/IntervalSecondData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/IntervalType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/JavaObjectData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/JavaObjectDataInternal.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/LobData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/NullType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/NumberType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/OtherType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/RowType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/TimeData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/TimestampData.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/Type.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/Types.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/types/UserTypeModifier.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Bold.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/CSVWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Clear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/CodeSwitcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Colors.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/CommonSwing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/ConnectionDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/ConnectionDialogCommon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/ConnectionDialogSwing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/ConnectionSetting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/DataAccessPoint.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/DataAccessPointException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/DatabaseManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/DatabaseManagerCommon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/DatabaseManagerSwing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/FontDialogSwing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/GreenCircle.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Grid.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/GridSwing.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/HelperFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Hourglass.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/HsqldbTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/InformixTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Italic.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/JDBCTypes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/MainInvoker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/McKoiTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/NoWay.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/OracleTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/PostgresTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/RedCircle.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/SQLStatements.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/SqlServerTransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TableSorter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Traceable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Transfer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferCommon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferDb.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferResultSet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferSQLText.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/TransferTable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/Tree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/hsqldb.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/hsqldbtab.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/AntResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/BasicResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Defines.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Document.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/IResolver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Line.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/LineType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Option.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Parser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Preprocessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/PreprocessorAntTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/PreprocessorException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Token.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/preprocessor/Tokenizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/problems.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/run_exc.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/src/org/hsqldb/util/run_exc_running.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/stylesheets/chunk.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/stylesheets/fo.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/stylesheets/html-common.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/stylesheets/html.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/stylesheets/pagesetup.xsl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelf.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelf3PartNames.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfAlterColumn.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfArithmetic.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfArrays.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfCasewhen.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfCheckConstraints.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfColGrant.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfConstraints.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfConversions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfCreate.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfFKModes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfFieldLimits.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfFunction.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfGrantees.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfGroupBy.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfImmediateShutdown.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfImmediateShutdownRecover.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfInPredicateReferencing.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfInsertDeleteQueries.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfInsteadOfTriggers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfInternalFunctions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfInterval.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfIssues.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfJoins.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfLeftJoin.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfModify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfMultiGrants.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfNameResolution.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfNameResolutionSchemas.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfNoDmlBug1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfNoDmlBug2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfNot.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfPersSchemA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfPersSchemB.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfPersSchemC.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfPersSchemD.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfPrimaryKeys.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfQueries.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfRightCaching.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfRoleNesting.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaCasc.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaMisc.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPerCachTbl1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPerCachTbl2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistA1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistA2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistB1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistB2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistC1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaPersistC2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSchemaQuoting.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSeqRightsA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSeqRightsB.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSeqRightsC.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfStoredProcedure.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfStoredProcedureTypes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSubselects.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfSysTables.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTempTable1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTempTable2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTransaction.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTriggers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTriggers2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfTrimSimplified.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfUnions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfUserFunction.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfVerify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfViewGrants.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfViewSchemaResolve.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestSelfViews.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestText01.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestText02.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqldb/TestTriggers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/hsqlodbc/blobtest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/README.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/adv-comments.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/altspace.targtbl.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/append.inter" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/at-chainer.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/badsqlonly.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/buffer-vars.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/comments.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/csv-1charquoted.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/csv-1charquoted.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/csv-quotedcolheaders.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/csv-quotedcolheaders.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/csv-roundtrip.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-abortcommits.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-altspace.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-constcols.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-constcols.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-multiline.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-omits.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-omits.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-prepare.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-rejects.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-rejects.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-roundtrip.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-rpcommit.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-rpcommit.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-sqlarray.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-trimall.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-trimall.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-trimming-alt.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-trimming.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/dsv-trimming.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/else.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/errhandling.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/errhandling.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/errhandling.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/errhandlingn.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/for.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/forrows.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/function.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/goodsqlonly.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/history.inter" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/inlineif.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/j.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/lastval.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/logic.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/logical-ops.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/macro.inter" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/macro.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/math.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nestingschema.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/noop.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nq-arg1.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nq-arg1.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nq-noarg1.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nq-noarg1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nullempty.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nullrep-alt.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nullrep.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/nullrep.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/plcontrolflow.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/q-arg1.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/q-noarg1.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/rawmode.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/return.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/return.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/rowcount.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/runtests.bash" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/runtests.cmd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/runtests.groovy" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/sqlarray.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/sqljrt.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/sqlpsm.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/subdir/atuser.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/subdir/tblx.dsv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/subdir/tblx.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/subst.inter" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/testcases.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/unseteval.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/unsetvar.nsql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/unsetvar.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/varnestee.isql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/varnester.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/vars.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/varswithspaces.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/hsqldb/testrun/sqltool/write.inter" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/DatabaseManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Logger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Player.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Wallet/com/company/Main.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,20 +1246,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DatabaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#86#87#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,13 +1308,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/company/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Player.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Logger.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="291" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -68,6 +1337,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,13 +1345,33 @@
               <item name="Wallet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wallet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="hsqldb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wallet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wallet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -149,41 +1439,80 @@
       <option name="presentableId" value="Default" />
       <updated>1519465211929</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test3">
+      <created>1519465411711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519465411711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="291" y="16" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13224822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3550356" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1353001" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16953714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test3" />
+    <MESSAGE value="Thinking of basic Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thinking of basic Structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -192,12 +1521,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/LogFile_2018-02-24_024851">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/LogFile_2018-02-24_024914">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="236" column="7" lean-forward="true" selection-start-line="215" selection-start-column="4" selection-end-line="236" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="632" column="16" lean-forward="false" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
+          <folding>
+            <element signature="e#26222#26223#0" expanded="true" />
+            <element signature="e#26265#26266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
