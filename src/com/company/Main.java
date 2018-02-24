@@ -9,14 +9,20 @@ public class Main {
         int port = 7142;
         DatabaseManager dbm = new DatabaseManager();
 
+        // TESTING JOB SERVER
         JobServer js = new JobServer();
         js.start();
 
-        Transaction t1 = new Transaction("James", 100555, 30);
-        Transaction t2 = new Transaction("James", 100556, -10);
+        // TESTING TRANSACTIONS AND DB
+        Transaction t1 = new Transaction("James", 100560, 15);
+        Transaction t2 = new Transaction("James", 100559, -10);
+        Transaction t3 = new Transaction("Jane", 100557, 4);
+        Transaction t4 = new Transaction("Jane", 100558, -10);
 
         t1.make();
         t2.make();
+        t3.make();
+        t4.make();
 
         /**
          // LOGGING TEST :
