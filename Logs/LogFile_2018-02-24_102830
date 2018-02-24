@@ -1,0 +1,20 @@
+2018-02-24_102830 LOGGER Created new Log File!
+2018-02-24_102830 JOB_SERVER Creating Server
+2018-02-24_102830 JOB_SERVER Starting Server
+2018-02-24_102830 TRANSACTION Making a Transaction 100560 with Amount : 15.0 to James
+2018-02-24_102830 DATABASE The player Does not exist in our Database. Creating : James
+2018-02-24_102830 DATABASE New Player created : com.company.Player@7c3df479 Balance : 0.0 BalanceVersion : 0
+2018-02-24_102830 PLAYER Balance changed from : 0.0 to 15.0 :: BalanceVersion 1
+2018-02-24_102830 TRANSACTION Making a Transaction 100559 with Amount : -10.0 to James
+2018-02-24_102830 PLAYER Balance changed from : 15.0 to 5.0 :: BalanceVersion 2
+2018-02-24_102830 TRANSACTION Making a Transaction 100557 with Amount : 4.0 to Jane
+2018-02-24_102830 DATABASE The player Does not exist in our Database. Creating : Jane
+2018-02-24_102830 DATABASE New Player created : com.company.Player@7106e68e Balance : 0.0 BalanceVersion : 0
+2018-02-24_102830 PLAYER Balance changed from : 0.0 to 4.0 :: BalanceVersion 1
+2018-02-24_102830 TRANSACTION Making a Transaction 100558 with Amount : -10.0 to Jane
+2018-02-24_102830 PLAYER Balance changed from : 4.0 to -6.0 :: BalanceVersion 2
+2018-02-24_102836 JOB_SERVER Triggering Player Data Save Job!
+2018-02-24_102836 MEMORY Saving Players from Memory into the Database : Started
+2018-02-24_102836 DATABASE Player Updated successfully : James
+2018-02-24_102836 DATABASE Player Inserted successfully : Jane
+2018-02-24_102836 MEMORY Saving Players from Memory into the Database : Completed

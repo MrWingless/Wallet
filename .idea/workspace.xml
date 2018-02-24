@@ -5,12 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/company/WalletServer.java" line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc9438f-92bc-4293-b422-7bed495d6f27" name="Default" comment="Added Transactions / Client / ServerWorker&#10;Got DB Working (FINALLY!)&#10;Thinking of making Mutlithreaded server with workers.&#10;Client is basic">
+    <list default="true" id="4cc9438f-92bc-4293-b422-7bed495d6f27" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hsqldb/hsqldb/walletdb.log" afterPath="$PROJECT_DIR$/hsqldb/hsqldb/walletdb.log" />
       <change beforePath="$PROJECT_DIR$/out/production/Wallet/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Wallet/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/com/company/DatabaseManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519503916685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Checked the Memory management. Found a problem.">
+      <created>1519504467418</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1519504467418</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -390,7 +394,8 @@
     <MESSAGE value="Added Logging" />
     <MESSAGE value="Added Some Memory management.&#10;Trying out Threading for different jobs." />
     <MESSAGE value="Added Transactions / Client / ServerWorker&#10;Got DB Working (FINALLY!)&#10;Thinking of making Mutlithreaded server with workers.&#10;Client is basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Transactions / Client / ServerWorker&#10;Got DB Working (FINALLY!)&#10;Thinking of making Mutlithreaded server with workers.&#10;Client is basic" />
+    <MESSAGE value="Checked the Memory management. Found a problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked the Memory management. Found a problem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
