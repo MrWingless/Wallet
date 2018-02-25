@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 
 // Writes and reads database entries
 public final class DatabaseManager {
-    public static final SimpleDateFormat DB_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+    private static final SimpleDateFormat DB_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
     private static final Logger.LogType LOG_TYPE = Logger.LogType.DATABASE;
     private static Connection connection = null;
     private static Statement statement = null;
@@ -42,6 +42,18 @@ public final class DatabaseManager {
         return player;
     }
 
+    public static Transaction getTransaction(int transactionID) throws SQLException{
+        if (transactionExists(transactionID)){
+            result = statement.executeQuery("SELECT TRANSACTIONID, USERNAME, ERRORCODE, AMOUNT, DATE, BALANCEBEFORE, BALANCEAFTER, BALANCEVERSION FROM TRANSACTIONHISTORY WHERE TRANSACTIONID = " + transactionID);
+            result.next();
+            int errorCode = result.getInt("ERRORCODE");
+            Transaction tempTransaction = new Transaction(result.getInt("TRANSACTIONID"), result.getString("USERNAME"), (errorCode == 0 ? new ResultSuccess() : new ResultFail(errorCode)), result.getDouble("AMOUNT"),  result.getTimestamp("DATE"), result.getDouble("BALANCEBEFORE"), result.getDouble("BALANCEAFTER"), result.getInt("BALANCEVERSION"));
+            return tempTransaction;
+        } else {
+            return null;
+        }
+    }
+
     public static void savePlayer(Player player) throws SQLException {
         if (playerExists(player.getUsername())) {
             statement.executeQuery("UPDATE PLAYER SET BALANCE = " + player.getBalance() + ", BALANCE_VERSION = " + player.getBalanceVersion() + " WHERE USERNAME = '" + player.getUsername() + "'");
@@ -71,7 +83,7 @@ public final class DatabaseManager {
         return answer;
     }
 
-    protected static boolean transactionExists(int transactionID) throws SQLException{
+    public static boolean transactionExists(int transactionID) throws SQLException{
         boolean answer = false;
         result = statement.executeQuery("SELECT COUNT(*) FROM TRANSACTIONHISTORY WHERE TRANSACTIONID = " + transactionID);
         result.next();

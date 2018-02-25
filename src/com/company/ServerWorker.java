@@ -7,8 +7,8 @@ import java.net.Socket;
 
 public class ServerWorker implements Runnable {
     private static final Logger.LogType LOG_TYPE = Logger.LogType.WALLET_SERVER_WORKER;
-    protected Socket clientSocket = null;
-    protected String workerString = null;
+    private Socket clientSocket = null;
+    private String workerString = null;
 
     public ServerWorker(Socket clientSocket, String text) {
         this.clientSocket = clientSocket;

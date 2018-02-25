@@ -1,5 +1,6 @@
 package com.company;
 
+import java.sql.SQLException;
 import java.util.Date;
 
 public class Transaction {
@@ -9,7 +10,7 @@ public class Transaction {
     private Result result;
     private double balanceChangeAmount;
     private Date dateTime;
-    protected double balanceBefore;
+    private double balanceBefore;
     private double balanceAfter;
     private double balanceVersion;
 
@@ -17,6 +18,17 @@ public class Transaction {
         this.username = username;
         this.transactionID = transactionID;
         this.balanceChangeAmount = balanceChangeAmount;
+    }
+
+    public Transaction(int transactionID, String username, Result result, double balanceChangeAmount, Date dateTime, double balanceBefore, double balanceAfter, double balanceVersion) {
+        this.transactionID = transactionID;
+        this.username = username;
+        this.result = result;
+        this.balanceChangeAmount = balanceChangeAmount;
+        this.dateTime = dateTime;
+        this.balanceBefore = balanceBefore;
+        this.balanceAfter = balanceAfter;
+        this.balanceVersion = balanceVersion;
     }
 
     public String getUsername() {
@@ -51,9 +63,14 @@ public class Transaction {
         return balanceVersion;
     }
 
-    public void make() {
-        Logger.log(LOG_TYPE, "Making a Transaction " + transactionID + " with Amount : " + balanceChangeAmount + " to " + username);
+    public Result make() {
         Player ourPlayer = Memory.getPlayer(username);
+
+        if (transactionAlreadyExists()){
+            Logger.log(LOG_TYPE, "Transaction " + transactionID + " already exists with Amount : " + balanceChangeAmount + " to " + username + " : ErrorCode : " + result.getCode());
+            return result;
+        }
+        Logger.log(LOG_TYPE, "Making a Transaction " + transactionID + " with Amount : " + balanceChangeAmount + " to " + username);
 
         if (!transactionStaysWithinConfiguredLimits()) {
             result = new ResultFail(65, Result.Type.ERROR_TRANSACTION_EXCEEDS_LIMITS);
@@ -76,7 +93,8 @@ public class Transaction {
         balanceAfter = ourPlayer.getBalance();
         balanceVersion = ourPlayer.getBalanceVersion();
         dateTime = new Date();
-        Memory.TRANSACTION_HISTORY.put(transactionID, this);
+        Memory.addTransactionToMemory(this);
+        return result;
     }
 
     private boolean transactionStaysWithinConfiguredLimits() {
@@ -93,5 +111,34 @@ public class Transaction {
             }
         }
         return true;
+    }
+
+    private boolean transactionAlreadyExists(){
+        boolean transactionDoesNotExist = false;
+
+        if (Memory.transactionExistsInMemory(transactionID)){
+            replaceThisTransaction(Memory.getTransaction(transactionID));
+            return true;
+        }
+
+        try {
+            if (DatabaseManager.transactionExists(transactionID)){
+                replaceThisTransaction(DatabaseManager.getTransaction(transactionID));
+                return true;
+            }
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return transactionDoesNotExist;
+    }
+
+    private void replaceThisTransaction(Transaction newTransaction){
+        username = newTransaction.getUsername();
+        result = newTransaction.getResult();
+        balanceChangeAmount = newTransaction.getBalanceChangeAmount();
+        dateTime = newTransaction.getDateTime();
+        balanceBefore = newTransaction.getBalanceBefore();
+        balanceAfter = newTransaction.getBalanceAfter();
+        balanceVersion = newTransaction.getBalanceVersion();
     }
 }

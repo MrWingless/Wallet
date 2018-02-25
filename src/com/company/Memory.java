@@ -6,14 +6,14 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public final class Memory {
     private static final Logger.LogType LOG_TYPE = Logger.LogType.MEMORY;
-    public static final ConcurrentHashMap<String, Player> PLAYERS_IN_MEMORY = new ConcurrentHashMap<>();
-    public static final ConcurrentHashMap<Integer, Transaction> TRANSACTION_HISTORY = new ConcurrentHashMap<>();
+    private static final ConcurrentHashMap<String, Player> PLAYERS_IN_MEMORY = new ConcurrentHashMap<>();
+    private static final ConcurrentHashMap<Integer, Transaction> TRANSACTION_HISTORY = new ConcurrentHashMap<>();
 
     private static boolean playerExistsInMemory(String username){
         return PLAYERS_IN_MEMORY.containsKey(username);
     }
 
-    private static boolean transactionExistsInMemory(int transactionID){
+    public static boolean transactionExistsInMemory(int transactionID){
         return TRANSACTION_HISTORY.containsKey(transactionID);
     }
 
@@ -25,6 +25,14 @@ public final class Memory {
             PLAYERS_IN_MEMORY.put(username, p);
             return p;
         }
+    }
+
+    public static Transaction getTransaction(int transactionID){
+        return TRANSACTION_HISTORY.get(transactionID);
+    }
+
+    public static void addTransactionToMemory(Transaction transaction){
+        TRANSACTION_HISTORY.put(transaction.getTransactionID(), transaction);
     }
 
     public static void saveData(){

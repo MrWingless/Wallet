@@ -1,0 +1,19 @@
+2018-02-25_112033 LOGGER Created new Log File!
+2018-02-25_112033 CONFIGURATION Value Read from Conf File : TxLowerLimit : set as : -20
+2018-02-25_112033 CONFIGURATION Value Read from Conf File : TxUpperLimit : set as : 30
+2018-02-25_112033 CONFIGURATION Value Read from Conf File : DebugMode : set as : 1
+2018-02-25_112033 INFORMATIVE Balance Change Lower Limit = -20.0
+2018-02-25_112033 INFORMATIVE Balance Change Upper Limit = 30.0
+2018-02-25_112033 JOB_SERVER Creating Server
+2018-02-25_112033 JOB_SERVER Starting Server
+2018-02-25_112033 DATABASE Found Player : James Balance : 74.0 BalanceVersion : 25
+2018-02-25_112033 TRANSACTION Transaction 100560 already exists with Amount : -3.0 to James : ErrorCode : 0
+2018-02-25_112033 TRANSACTION Transaction 100559 already exists with Amount : 20.0 to James : ErrorCode : 0
+2018-02-25_112033 TRANSACTION Transaction 100560 already exists with Amount : -3.0 to James : ErrorCode : 0
+2018-02-25_112039 JOB_SERVER Triggering Data Save Job!
+2018-02-25_112039 MEMORY Saving Players from Memory into the Database : Started
+2018-02-25_112039 DATABASE Player Updated successfully : James
+2018-02-25_112039 MEMORY Saving Players from Memory into the Database : Completed
+2018-02-25_112039 MEMORY Saving Transaction History from Memory into the Database : Started
+2018-02-25_112039 MEMORY Saving Transaction History from Memory into the Database : Completed
+2018-02-25_112039 JOB_SERVER Data Save Job Completed!

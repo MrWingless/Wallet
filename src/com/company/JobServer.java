@@ -6,7 +6,7 @@ public class JobServer implements Runnable {
     private boolean running = true;
     private int sleepTimeMilliseconds = 6000; // 1 minute (5 = 300000)
 
-    public JobServer() {
+    JobServer() {
         Logger.log(LOG_TYPE, "Creating Server");
     }
 
@@ -17,7 +17,8 @@ public class JobServer implements Runnable {
             }
             catch (InterruptedException e){
                 Logger.log(LOG_TYPE, "Waiting Failure!");
-                Logger.log(Logger.LogType.ERROR, "JobServer Failure : " + e.getStackTrace().toString());
+                Logger.log(Logger.LogType.ERROR, "JobServer Failure : ");
+                e.printStackTrace();
             }
             Logger.log(LOG_TYPE, "Triggering Data Save Job!");
             Memory.saveData();
