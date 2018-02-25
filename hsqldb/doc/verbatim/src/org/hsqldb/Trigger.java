@@ -112,7 +112,7 @@ public interface Trigger {
      * the table row to be deleted.
      *
      * <p> For error conditions, users can construct an HsqlException using one
-     * of the static methods of org.hsqldb.error.Error with a predefined
+     * of the static methods of org.hsqldb.error.Result with a predefined
      * SQL State from org.hsqldb.error.ErrorCode.
      *
      * @param type the type as one of the int values defined in the interface

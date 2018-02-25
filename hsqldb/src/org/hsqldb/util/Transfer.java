@@ -1265,7 +1265,7 @@ implements WindowListener, ActionListener, ItemListener, Traceable {
         } catch (Exception e) {
             String last = tMessage.getText();
 
-            trace("Transfer stopped - " + last + " /  / Error: "
+            trace("Transfer stopped - " + last + " /  / Result: "
                   + e.toString());
             e.printStackTrace();
         }

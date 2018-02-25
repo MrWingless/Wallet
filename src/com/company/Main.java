@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
         int port = 7142;
+        Configuration conf = new Configuration();
         DatabaseManager dbm = new DatabaseManager();
 
         // TESTING JOB SERVER
@@ -16,13 +17,17 @@ public class Main {
         // TESTING TRANSACTIONS AND DB
         Transaction t1 = new Transaction("James", 100560, 30);
         Transaction t2 = new Transaction("James", 100559, -10);
+        Transaction t21 = new Transaction("James", 100562, -8);
+        Transaction t22 = new Transaction("James", 100561, -3);
         Transaction t3 = new Transaction("Jane", 100557, 30);
-        Transaction t4 = new Transaction("Jane", 100558, -10);
+        Transaction t4 = new Transaction("Jane", 100558, -100);
 
         t1.make();
         t2.make();
         t3.make();
         t4.make();
+        t21.make();
+        t22.make();
 
         /**
          // LOGGING TEST :

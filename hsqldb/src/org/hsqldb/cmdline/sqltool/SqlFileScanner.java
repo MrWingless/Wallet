@@ -246,8 +246,8 @@ public class SqlFileScanner implements TokenSource {
   /* error messages for the codes above */
   private static final String ZZ_ERROR_MSG[] = {
     "Unkown internal scanner error",
-    "Error: could not match input",
-    "Error: pushback value was too large"
+    "Result: could not match input",
+    "Result: pushback value was too large"
   };
 
   /**
@@ -499,7 +499,7 @@ public class SqlFileScanner implements TokenSource {
    *
    * @return      <code>false</code>, iff there was new input.
    * 
-   * @exception   java.io.IOException  if any I/O-Error occurs
+   * @exception   java.io.IOException  if any I/O-Result occurs
    */
   private boolean zzRefill() throws java.io.IOException {
 
@@ -689,10 +689,10 @@ public class SqlFileScanner implements TokenSource {
 
   /**
    * Resumes scanning until the next regular expression is matched,
-   * the end of input is encountered or an I/O-Error occurs.
+   * the end of input is encountered or an I/O-Result occurs.
    *
    * @return      the next token
-   * @exception   java.io.IOException  if any I/O-Error occurs
+   * @exception   java.io.IOException  if any I/O-Result occurs
    */
   public Token yylex() throws java.io.IOException {
     int zzInput;

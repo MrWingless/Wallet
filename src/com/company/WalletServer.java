@@ -1,17 +1,11 @@
 package com.company;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.ArrayList;
 
 public class WalletServer implements Runnable {
-    private static final Logger.LogType logType = Logger.LogType.WALLET_SERVER;
+    private static final Logger.LogType LOG_TYPE = Logger.LogType.WALLET_SERVER;
     private Thread thread = null;
     private ServerSocket serverSocket = null;
     private int port = 8080;
@@ -19,7 +13,7 @@ public class WalletServer implements Runnable {
 
     public WalletServer(int port) {
         this.port = port;
-        Logger.log(logType, "Creating Server");
+        Logger.log(LOG_TYPE, "Creating Server");
     }
 
     public void run() {
@@ -36,7 +30,7 @@ public class WalletServer implements Runnable {
             try {
                 clientSocket = this.serverSocket.accept();
             } catch (IOException e) {
-                Logger.log(logType, "Failed to Accept - Server Scoket");
+                Logger.log(LOG_TYPE, "Failed to Accept - Server Scoket");
                 Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
             }
 
@@ -50,7 +44,7 @@ public class WalletServer implements Runnable {
          try {
          serverSocket = new ServerSocket(port);
          } catch (IOException e){
-         Logger.log(logType, "Failed to Listen to port " + port);
+         Logger.log(LOG_TYPE, "Failed to Listen to port " + port);
          Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
          }
 
@@ -58,7 +52,7 @@ public class WalletServer implements Runnable {
          try {
          clientSocket = serverSocket.accept();
          } catch (IOException e){
-         Logger.log(logType, "Failed to Accept server socket");
+         Logger.log(LOG_TYPE, "Failed to Accept server socket");
          Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
          }
 
@@ -70,7 +64,7 @@ public class WalletServer implements Runnable {
 
 
          } catch (IOException e){
-         Logger.log(logType, "Failed to initialize writers and readers");
+         Logger.log(LOG_TYPE, "Failed to initialize writers and readers");
          Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
          }
 
@@ -80,7 +74,7 @@ public class WalletServer implements Runnable {
     }
 
     public void start() {
-        Logger.log(logType, "Starting Server");
+        Logger.log(LOG_TYPE, "Starting Server");
         if (thread == null) {
             thread = new Thread(this);
             thread.start();
@@ -96,7 +90,7 @@ public class WalletServer implements Runnable {
         try {
             this.serverSocket.close();
         } catch (IOException e) {
-            Logger.log(logType, "Failed to Close server socket");
+            Logger.log(LOG_TYPE, "Failed to Close server socket");
             Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
         }
     }
@@ -105,7 +99,7 @@ public class WalletServer implements Runnable {
         try {
             this.serverSocket = new ServerSocket(this.port);
         } catch (IOException e) {
-            Logger.log(logType, "Failed to Open server socket");
+            Logger.log(LOG_TYPE, "Failed to Open server socket");
             Logger.log(Logger.LogType.ERROR, e.getStackTrace().toString());
         }
     }

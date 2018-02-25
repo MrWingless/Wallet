@@ -888,7 +888,7 @@ public class FunctionCustom extends FunctionSQL {
                 return 0;
 
             case FUNC_SQLERRM :
-                return "Error";
+                return "Result";
 
             case FUNC_POSITION_CHAR :
             case FUNC_EXTRACT :
@@ -2967,7 +2967,7 @@ public class FunctionCustom extends FunctionSQL {
                                     }
 
                                     if (!nodes[1].dataType.isCharacterType()) {
-                                        throw Error.error(ErrorCode.X_42563);
+                                        throw Result.error(ErrorCode.X_42563);
                                     }
                                 }
                  */

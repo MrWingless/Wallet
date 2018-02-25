@@ -1491,8 +1491,8 @@ class ServerConnection implements Runnable {
             switch (odbcCommMode) {
 
                 case OdbcUtil.ODBC_SIMPLE_MODE :
-                    outPacket.reset();                        /// transaction status = Error
-                    outPacket.writeByte('E');                 /// transaction status = Error
+                    outPacket.reset();                        /// transaction status = Result
+                    outPacket.writeByte('E');                 /// transaction status = Result
 
                     // TODO:  Consider keeping this state until the session
                     // is either committed or rolled back.

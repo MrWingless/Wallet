@@ -1502,7 +1502,7 @@ public class FunctionSQL extends Expression {
                 if (nodes[0].dataType == null) {
 
                     // in 20.6 parameter not allowed as type cannot be determined as binary or char
-                    // throw Error.error(ErrorCode.X_42567);
+                    // throw Result.error(ErrorCode.X_42567);
                     nodes[0].dataType = Type.SQL_VARCHAR_DEFAULT;
                 }
 
@@ -1620,7 +1620,7 @@ public class FunctionSQL extends Expression {
                         nodes[0].dataType = Type.SQL_VARCHAR_DEFAULT;
                         nodes[1].dataType = Type.SQL_VARCHAR_DEFAULT;
 
-                        // throw Error.error(ErrorCode.X_42567);
+                        // throw Result.error(ErrorCode.X_42567);
                     }
 
                     if (nodes[1].dataType.typeCode == Types.SQL_CLOB

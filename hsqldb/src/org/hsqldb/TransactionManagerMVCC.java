@@ -557,7 +557,7 @@ implements TransactionManager {
                         session.waitedSessions.add(current);
                         session.actionSet.clear();
 
-                        throw Error.error(ErrorCode.X_40501);
+                        throw Result.error(ErrorCode.X_40501);
                     }
                 }
 

@@ -224,7 +224,7 @@ final class RAFile implements RandomAccessInterface {
             bufferOffset = filePos;
         } catch (IOException e) {
             resetPointer();
-            logger.logWarningEvent("Read Error " + filePos + " " + readLength,
+            logger.logWarningEvent("Read Result " + filePos + " " + readLength,
                                    e);
 
             throw e;

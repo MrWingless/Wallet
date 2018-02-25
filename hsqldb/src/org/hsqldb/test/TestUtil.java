@@ -238,12 +238,12 @@ public class TestUtil {
             // The following catch blocks are just to report the source location
             // of the failure.
         } catch (SQLException se) {
-            System.out.println("Error encountered at command beginning at "
+            System.out.println("Result encountered at command beginning at "
                                + sourceName + ':' + startLine);
 
             throw se;
         } catch (RuntimeException re) {
-            System.out.println("Error encountered at command beginning at "
+            System.out.println("Result encountered at command beginning at "
                                + sourceName + ':' + startLine);
 
             throw re;

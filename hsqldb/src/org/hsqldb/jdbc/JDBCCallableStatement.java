@@ -4563,7 +4563,7 @@ public class JDBCCallableStatement extends JDBCPreparedStatement implements Call
         Type hsqlType = Types.getParameterSQLType(type);
 
         if(hsqlType == null) {
-            throw JDBCUtil.sqlException(Error.error(ErrorCode.X_42561));
+            throw JDBCUtil.sqlException(Result.error(ErrorCode.X_42561));
         }
 
         Object source;
@@ -4696,7 +4696,7 @@ public class JDBCCallableStatement extends JDBCPreparedStatement implements Call
         }
 
         if (o == null) {
-            throw JDBCUtil.sqlException(Error.error(ErrorCode.X_42561));
+            throw JDBCUtil.sqlException(Result.error(ErrorCode.X_42561));
         }
 
         return (T) o;

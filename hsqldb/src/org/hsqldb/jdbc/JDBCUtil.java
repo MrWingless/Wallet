@@ -183,7 +183,7 @@ public final class JDBCUtil {
 
 //#else
 /*
-        return sqlException(Error.error(ErrorCode.X_0A000));
+        return sqlException(Result.error(ErrorCode.X_0A000));
 */
 
 //#endif JAVA6
@@ -234,7 +234,7 @@ public final class JDBCUtil {
 //#else
 /*
         return new SQLException(t.getMessage(),
-                                Error.getStateString(ErrorCode.GENERAL_ERROR),
+                                Result.getStateString(ErrorCode.GENERAL_ERROR),
                                 ErrorCode.GENERAL_ERROR);
 */
 
@@ -364,7 +364,7 @@ public final class JDBCUtil {
             ///
             // Our only Access Violation SQLSTATE so far is:
             //
-            // Error.NOT_AUTHORIZED 255=42000 User not authorized for action '$$'
+            // Result.NOT_AUTHORIZED 255=42000 User not authorized for action '$$'
             //
             // Our syntax exceptions are apparently all sqlstate "37000"
             //
@@ -453,15 +453,15 @@ public final class JDBCUtil {
 //
 //    static SQLException callableStatementParameterIndexNotFoundException(int index) {
 //        //String msg = "Parameter index out of bounds: " + index; //NOI18N
-//        return sqlException(Error.error(ErrorCode.COLUMN_NOT_FOUND, Integer.toString(index)));
+//        return sqlException(Result.error(ErrorCode.COLUMN_NOT_FOUND, Integer.toString(index)));
 //    }
 //
 //    static SQLException callableStatementParameterNameNotFoundException(String parameterName) {
-//        return sqlException(Error.error(ErrorCode.COLUMN_NOT_FOUND, parameterName));
+//        return sqlException(Result.error(ErrorCode.COLUMN_NOT_FOUND, parameterName));
 //    }
 //
 //    static SQLException characterInputStreamIOException(Exception e) {
-//        return sqlException(Error.INPUTSTREAM_ERROR, String.valueOf(e));
+//        return sqlException(Result.INPUTSTREAM_ERROR, String.valueOf(e));
 //    }
 //
 //    static SQLException characterInputStreamTransferCorruptedException(Exception e) {
@@ -514,7 +514,7 @@ public final class JDBCUtil {
 //
 //    static SQLException connectionNativeSQLException(String sql, int index) {
 //        boolean substitute = true;
-//        String msg = Error.getMessage(ErrorCode.JDBC_CONNECTION_NATIVE_SQL,
+//        String msg = Result.getMessage(ErrorCode.JDBC_CONNECTION_NATIVE_SQL,
 //                                      substitute, new Object[]{
 //                                      sql.substring(index)});
 //
@@ -522,7 +522,7 @@ public final class JDBCUtil {
 //    }
 //
 //    static SQLException connectionResetFailureException(Exception e) {
-//        return sqlException(ErrorCode.GENERAL_ERROR, "Error resetting connection: "
+//        return sqlException(ErrorCode.GENERAL_ERROR, "Result resetting connection: "
 //                                   + e.getMessage());
 //    }
 //
@@ -547,7 +547,7 @@ public final class JDBCUtil {
 //
 //    static SQLException illegalBestRowIdentifierScopeArgumentException(int scope) {
 //        return sqlException(ErrorCode.JDBC_INVALID_ARGUMENT,
-//                            Error.JDBC_ILLEGAL_BRI_SCOPE,
+//                            Result.JDBC_ILLEGAL_BRI_SCOPE,
 //                            new Object[]  {Integer.toString(scope)});
 //    }
 //
@@ -604,7 +604,7 @@ public final class JDBCUtil {
 //
 //    static SQLException invalidNullInputStreamArgumentException() {
 //        return sqlException(ErrorCode.error(ErrorCode.JDBC_INVALID_ARGUMENT,
-//                Error.JDBC_NULL_STREAM));
+//                Result.JDBC_NULL_STREAM));
 //    }
 //
 //    static SQLException octetInputStreamInvalidCharacterEncodingException(Exception e) {
@@ -651,7 +651,7 @@ public final class JDBCUtil {
 //    }
 //
 //    static SQLException resultSetColumnNameNotFoundException(String columnName) {
-//        return sqlException(Error.error(ErrorCode.COLUMN_NOT_FOUND, columnName));
+//        return sqlException(Result.error(ErrorCode.COLUMN_NOT_FOUND, columnName));
 //    }
 //
 //    static SQLWarning resultSetConcurrencyTranslationWarning(int requestedConcurrency,
@@ -660,7 +660,7 @@ public final class JDBCUtil {
 //        String translated = toResultSetConcurrencyString(translatedConcurrency);
 //        String msg        = requested + " => " + translated;
 //
-//        return new SQLWarning(msg, "SOO10", Error.JDBC_INVALID_ARGUMENT);
+//        return new SQLWarning(msg, "SOO10", Result.JDBC_INVALID_ARGUMENT);
 //    }
 //
 //    static SQLException resultSetCursorNameNotSupportedException() {
@@ -681,7 +681,7 @@ public final class JDBCUtil {
 //        String translated = toResultSetHoldabilityString(translatedHoldability);
 //        String msg        = requested + " => " + translated;
 //
-//        return new SQLWarning(msg, "SOO10", Error.JDBC_INVALID_ARGUMENT);
+//        return new SQLWarning(msg, "SOO10", Result.JDBC_INVALID_ARGUMENT);
 //    }
 //
 //
@@ -700,12 +700,12 @@ public final class JDBCUtil {
 //
 //    static SQLException resultSetMetaDataInitializationNullResultArgumentException() {
 //        return sqlException(ErrorCode.GENERAL_ERROR,
-//                Error.JDBC_NO_RESULT_SET, null);
+//                Result.JDBC_NO_RESULT_SET, null);
 //    }
 //
 //    static SQLException resultSetMetaDataInitializationNullResultSetArgumentException() {
 //        return sqlException(ErrorCode.GENERAL_ERROR,
-//                Error.JDBC_NO_RESULT_SET_METADATA, null);
+//                Result.JDBC_NO_RESULT_SET_METADATA, null);
 //    }
 //
 //    static SQLException resultSetNotRefreshableException() {
@@ -721,7 +721,7 @@ public final class JDBCUtil {
 //        String translated = toResultSetTypeString(translatedType);
 //        String msg        = requested + " => " + translated;
 //
-//        return new SQLWarning(msg, "SOO10", Error.JDBC_INVALID_ARGUMENT);
+//        return new SQLWarning(msg, "SOO10", Result.JDBC_INVALID_ARGUMENT);
 //    }
 //
 //
@@ -946,7 +946,7 @@ public final class JDBCUtil {
 //
 //    static SQLException updateCountWasNotGeneratedByStatementExecutionException() {
 //        return sqlException(ErrorCode.ASSERT_FAILED,
-//                            Error.getMessage(ErrorCode.JDBC_STATEMENT_EXECUTE_UPDATE));
+//                            Result.getMessage(ErrorCode.JDBC_STATEMENT_EXECUTE_UPDATE));
 //    }
 //
 //    static SQLException updateCountWillNotBeGeneratedByExecuteUpdateException() {

@@ -4,10 +4,10 @@ import java.sql.*;
 
 // Writes and reads database entries
 public final class DatabaseManager {
+    private static final Logger.LogType LOG_TYPE = Logger.LogType.DATABASE;
     private static Connection connection = null;
     private static Statement statement = null;
     private static ResultSet result = null;
-    private static final Logger.LogType logType = Logger.LogType.DATABASE;
 
     public DatabaseManager() {
         try {
@@ -26,12 +26,12 @@ public final class DatabaseManager {
             result = statement.executeQuery("SELECT USERNAME, BALANCE_VERSION, BALANCE FROM PLAYER WHERE USERNAME = '" + username + "'");
             result.next();
             if (result.getRow() < 1) {
-                Logger.log(logType, "The player Does not exist in our Database. Creating : " + username);
+                Logger.log(LOG_TYPE, "The player Does not exist in our Database. Creating : " + username);
                 player = new Player(username, 0, 0);
-                Logger.log(logType, "New Player created : " + player.getUsername() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
+                Logger.log(LOG_TYPE, "New Player created : " + player.getUsername() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
             } else {
                 player = new Player(result.getString("USERNAME"), result.getInt("BALANCE_VERSION"), result.getDouble("BALANCE"));
-                Logger.log(logType, "Found Player : " + player.getUsername() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
+                Logger.log(LOG_TYPE, "Found Player : " + player.getUsername() + " Balance : " + player.getBalance() + " BalanceVersion : " + player.getBalanceVersion());
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -43,10 +43,10 @@ public final class DatabaseManager {
     public static void savePlayer(Player player) throws SQLException {
         if (playerExists(player)) {
             statement.executeQuery("UPDATE PLAYER SET BALANCE = " + player.getBalance() + ", BALANCE_VERSION = " + player.getBalanceVersion() + " WHERE USERNAME = '" + player.getUsername() + "'");
-            Logger.log(logType, "Player Updated successfully : " + player.getUsername());
+            Logger.log(LOG_TYPE, "Player Updated successfully : " + player.getUsername());
         } else {
             statement.executeQuery("INSERT INTO PLAYER (USERNAME, BALANCE_VERSION, BALANCE) VALUES ('" + player.getUsername() + "', " + player.getBalanceVersion() + ", " + player.getBalance() + ")");
-            Logger.log(logType, "Player Inserted successfully : " + player.getUsername());
+            Logger.log(LOG_TYPE, "Player Inserted successfully : " + player.getUsername());
         }
     }
 

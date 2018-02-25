@@ -40,7 +40,7 @@ import org.hsqldb.lib.AppendableException;
  * When there is time, this file and class should be renamed.
  * <P>
  * This class has a misleading name and should really be renamed.
- * It is Java Exception, not a Java Error.
+ * It is Java Exception, not a Java Result.
  * </P>
  */
 public class SqlToolError extends AppendableException {

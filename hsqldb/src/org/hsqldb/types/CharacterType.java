@@ -328,7 +328,7 @@ public class CharacterType extends Type {
             if (typeCode == Types.SQL_BINARY) {
 
                 // Standard disallows type length reduction
-                // throw Error.error(ErrorCode.X_42570);
+                // throw Result.error(ErrorCode.X_42570);
                 newPrecision = maxCharPrecision;
             } else if (typeCode == Types.SQL_CHAR) {
                 newPrecision = maxCharPrecision;

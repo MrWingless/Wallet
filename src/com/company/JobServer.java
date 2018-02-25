@@ -1,13 +1,13 @@
 package com.company;
 
 public class JobServer implements Runnable {
-    private static final Logger.LogType logType = Logger.LogType.JOB_SERVER;
+    private static final Logger.LogType LOG_TYPE = Logger.LogType.JOB_SERVER;
     private Thread thread;
     private boolean running = true;
     private int sleepTimeMilliseconds = 6000; // 1 minute (5 = 300000)
 
     public JobServer() {
-        Logger.log(logType, "Creating Server");
+        Logger.log(LOG_TYPE, "Creating Server");
     }
 
     public void run() {
@@ -16,18 +16,18 @@ public class JobServer implements Runnable {
                 Thread.sleep(sleepTimeMilliseconds);
             }
             catch (InterruptedException e){
-                Logger.log(logType, "Waiting Failure!");
+                Logger.log(LOG_TYPE, "Waiting Failure!");
                 Logger.log(Logger.LogType.ERROR, "JobServer Failure : " + e.getStackTrace().toString());
             }
-            Logger.log(logType, "Triggering Player Data Save Job!");
+            Logger.log(LOG_TYPE, "Triggering Player Data Save Job!");
             Memory.saveData();
-            Logger.log(logType, "Player Data Save Job Completed!");
+            Logger.log(LOG_TYPE, "Player Data Save Job Completed!");
             running = false; // TODO : Remove this line
         }
     }
 
     public void start(){
-        Logger.log(logType, "Starting Server");
+        Logger.log(LOG_TYPE, "Starting Server");
         if (thread == null) {
             thread = new Thread (this);
             thread.start ();

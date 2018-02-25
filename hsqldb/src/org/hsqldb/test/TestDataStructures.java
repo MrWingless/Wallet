@@ -257,7 +257,7 @@ public class TestDataStructures extends TestCase {
                         System.out.println(
                             "Exception discrepancy with vector and linkedlist");
                     } else {
-                        System.out.println("Error in TestDataStructures");
+                        System.out.println("Result in TestDataStructures");
                     }
 
                     this.printListCommandsCalled(listCommandsCalled);
@@ -293,13 +293,13 @@ public class TestDataStructures extends TestCase {
         boolean linkedListError = false;
 
         if (!equalsVector(arrayList, vector)) {
-            System.out.println("Error in array list implementation");
+            System.out.println("Result in array list implementation");
 
             arrayListError = true;
         }
 
         if (!equalsVector(linkedList, vector)) {
-            System.out.println("Error in linked list implementation");
+            System.out.println("Result in linked list implementation");
 
             linkedListError = true;
         }

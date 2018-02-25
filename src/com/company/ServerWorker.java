@@ -6,7 +6,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 public class ServerWorker implements Runnable {
-    private static final Logger.LogType logType = Logger.LogType.WALLET_SERVER_WORKER;
+    private static final Logger.LogType LOG_TYPE = Logger.LogType.WALLET_SERVER_WORKER;
     protected Socket clientSocket = null;
     protected String workerString = null;
 
@@ -21,7 +21,7 @@ public class ServerWorker implements Runnable {
             InputStream inputStream = clientSocket.getInputStream();
             OutputStream outputStream = clientSocket.getOutputStream();
             long timeMillis2 = timeMillis - System.currentTimeMillis();
-            Logger.log(logType, "" + this.workerString + " : Worked " + timeMillis2 + " ms");
+            Logger.log(LOG_TYPE, "" + this.workerString + " : Worked " + timeMillis2 + " ms");
 
             //outputStream.write(("Text to respond with").getBytes());
             outputStream.close();

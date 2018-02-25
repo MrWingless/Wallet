@@ -390,7 +390,7 @@ public class RowOutputText extends RowOutputBase {
         } catch (Exception e) {
             reset();
 
-//            throw Error.error(ErrorCode.FILE_IO_ERROR, e.toString());
+//            throw Result.error(ErrorCode.FILE_IO_ERROR, e.toString());
         }
 
         int rowsize = size();

@@ -56,7 +56,7 @@ public interface ErrorCode {
     int M_HsqlProperties_load       = 28;          // properties name is null or empty
 
     //
-    int M_TEXT_SOURCE_FIELD_ERROR      = 41;       // S1000 Error in text source field
+    int M_TEXT_SOURCE_FIELD_ERROR      = 41;       // S1000 Result in text source field
     int M_TextCache_opening_file_error = 42;       // openning file: $$ error: $$
     int M_TextCache_closing_file_error = 43;       // closing file: $$ error: $$
     int M_TextCache_purging_file_error = 44;       // purging file: $$ error: $$
@@ -646,9 +646,9 @@ public interface ErrorCode {
     // HSQLDB - SQL/JRT
     int X_46511 = 6021;                            // declared parameter types do not match method signature
 
-    // Unknown Error: Catch-All - xxxx
-    int X_99000 = 6500;                            // Unknown Error: Catch-All
-    int X_99099 = 6501;                            // Error converting vendor code to SQL state code
+    // Unknown Result: Catch-All - xxxx
+    int X_99000 = 6500;                            // Unknown Result: Catch-All
+    int X_99099 = 6501;                            // Result converting vendor code to SQL state code
 
     // FDW-specific condition - xxxx
     int X_HV000 = 6600;                            // FDW-specific condition - generic

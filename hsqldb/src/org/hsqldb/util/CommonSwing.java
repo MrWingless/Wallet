@@ -56,7 +56,7 @@ import javax.swing.UIManager;
  */
 class CommonSwing {
 
-    protected static String messagerHeader = "Database Manager Swing Error";
+    protected static String messagerHeader = "Database Manager Swing Result";
     protected static String Native         = "Native";
     protected static String Java           = "Java";
     protected static String Motif          = "Motif";
@@ -108,7 +108,7 @@ class CommonSwing {
     protected static void errorMessage(String errorMessage) {
 
         /**
-         * Display Jpanel Error messages any text Errors. Overloads
+         * Display Jpanel Result messages any text Errors. Overloads
          * errorMessage(Exception exceptionMsg)
          */
         Object[] options = { "OK" };
@@ -129,7 +129,7 @@ class CommonSwing {
     public static void errorMessage(Exception exceptionMsg, boolean quiet) {
 
         /**
-         * Display Jpanel Error messages any SQL Errors. Overloads
+         * Display Jpanel Result messages any SQL Errors. Overloads
          * errorMessage(String e)
          */
         Object[] options = { "OK", };

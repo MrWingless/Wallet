@@ -1,7 +1,7 @@
 package com.company;
 
 public class Player {
-    private static final Logger.LogType logType = Logger.LogType.PLAYER;
+    private static final Logger.LogType LOG_TYPE = Logger.LogType.PLAYER;
     private String username;
     private int balanceVersion;
     private double balance;
@@ -28,6 +28,6 @@ public class Player {
         double oldBalance = balance;
         balance = balance + change;
         balanceVersion++;
-        Logger.log(logType, "" + username + " Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
+        Logger.log(LOG_TYPE, "" + username + " Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
     }
 }

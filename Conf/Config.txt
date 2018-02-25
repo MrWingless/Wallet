@@ -1,0 +1,6 @@
+# Transaction Limit :
+TxLowerLimit=-20
+TxUpperLimit=30
+
+# Test Mode : Currently Affects only logging
+DebugMode=1

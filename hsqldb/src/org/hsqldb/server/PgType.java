@@ -333,7 +333,7 @@ public class PgType {
                 } catch (HsqlException e) {
                     PgType.throwError(e);
                 }
-                PgType.throwError(Error.error(ErrorCode.X_42565));
+                PgType.throwError(Result.error(ErrorCode.X_42565));
 
                 break;
             case Types.SQL_BLOB :

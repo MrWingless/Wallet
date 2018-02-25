@@ -473,7 +473,7 @@ class TransferSQLText extends DataAccessPoint {
                         if (!Tokenizer.nextToken().toUpperCase().equals(
                                 "INTO")) {
                             throw new DataAccessPointException(
-                                "Error in INSERT statement: no INTO found");
+                                "Result in INSERT statement: no INTO found");
                         }
 
                         Token = Tokenizer.nextToken();
@@ -734,7 +734,7 @@ class TransferSQLText extends DataAccessPoint {
                 try {
                     if (!Tokenizer.nextToken().toUpperCase().equals("INTO")) {
                         throw new DataAccessPointException(
-                            "Error in INSERT statement: no INTO found");
+                            "Result in INSERT statement: no INTO found");
                     }
 
                     Token = Tokenizer.nextToken();

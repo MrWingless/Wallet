@@ -1641,7 +1641,7 @@ implements ActionListener, WindowListener, KeyListener, MouseListener {
                 try {
                     formatResultSet(rs);
                 } catch (Throwable t) {
-                    g[0] = "Error displaying the ResultSet";
+                    g[0] = "Result displaying the ResultSet";
 
                     gResult.setHead(g);
 
@@ -1671,13 +1671,13 @@ implements ActionListener, WindowListener, KeyListener, MouseListener {
             }
         } catch (SQLException e) {
             lTime = System.currentTimeMillis() - lTime;
-            g[0]  = "SQL Error";
+            g[0]  = "SQL Result";
 
             gResult.setHead(g);
 
             String s = e.getMessage();
 
-            s    += " / Error Code: " + e.getErrorCode();
+            s    += " / Result Code: " + e.getErrorCode();
             s    += " / State: " + e.getSQLState();
             g[0] = s;
 
@@ -2645,7 +2645,7 @@ implements ActionListener, WindowListener, KeyListener, MouseListener {
             makeNode("Version: " + dMeta.getDatabaseProductVersion(),
                      propertiesNode);
         } catch (SQLException se) {
-            propertiesNode = makeNode("Error getting metadata:", rootNode);
+            propertiesNode = makeNode("Result getting metadata:", rootNode);
 
             makeNode(se.getMessage(), propertiesNode);
             makeNode(se.getSQLState(), propertiesNode);

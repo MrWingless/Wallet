@@ -6975,7 +6975,7 @@ public class JDBCResultSet implements ResultSet {
         Type hsqlType = Types.getParameterSQLType(type);
 
         if(hsqlType == null) {
-            throw JDBCUtil.sqlException(Error.error(ErrorCode.X_42561));
+            throw JDBCUtil.sqlException(Result.error(ErrorCode.X_42561));
         }
 
         Object source;
@@ -7112,7 +7112,7 @@ public class JDBCResultSet implements ResultSet {
         }
 
         if (o == null) {
-            throw JDBCUtil.sqlException(Error.error(ErrorCode.X_42561));
+            throw JDBCUtil.sqlException(Result.error(ErrorCode.X_42561));
         }
 
         return (T) o;
