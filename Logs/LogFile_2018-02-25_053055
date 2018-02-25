@@ -1,0 +1,28 @@
+2018-02-25_053055 LOGGER Created new Log File!
+2018-02-25_053055 CONFIGURATION Value Read from Conf File : TxLowerLimit : set as : -20
+2018-02-25_053055 CONFIGURATION Value Read from Conf File : TxUpperLimit : set as : 30
+2018-02-25_053055 CONFIGURATION Value Read from Conf File : DebugMode : set as : 1
+2018-02-25_053055 INFORMATIVE Balance Change Lower Limit = -20.0
+2018-02-25_053055 INFORMATIVE Balance Change Upper Limit = 30.0
+2018-02-25_053055 JOB_SERVER Creating Server
+2018-02-25_053055 JOB_SERVER Starting Server
+2018-02-25_053055 TRANSACTION Making a Transaction 100560 with Amount : 30.0 to James
+2018-02-25_053055 DATABASE Found Player : James Balance : 51.0 BalanceVersion : 18
+2018-02-25_053055 PLAYER James Balance changed from : 51.0 to 81.0 :: BalanceVersion 19
+2018-02-25_053055 TRANSACTION Making a Transaction 100559 with Amount : -10.0 to James
+2018-02-25_053055 PLAYER James Balance changed from : 81.0 to 71.0 :: BalanceVersion 20
+2018-02-25_053055 TRANSACTION Making a Transaction 100557 with Amount : 30.0 to Jane
+2018-02-25_053055 DATABASE Found Player : Jane Balance : 4.0 BalanceVersion : 8
+2018-02-25_053055 PLAYER Jane Balance changed from : 4.0 to 34.0 :: BalanceVersion 9
+2018-02-25_053055 TRANSACTION Making a Transaction 100558 with Amount : -100.0 to Jane
+2018-02-25_053055 ERROR Player Jane does not have enough money for the transaction. Balance : 34.0 | Change amount : -100.0
+2018-02-25_053055 TRANSACTION Making a Transaction 100562 with Amount : -8.0 to James
+2018-02-25_053055 PLAYER James Balance changed from : 71.0 to 63.0 :: BalanceVersion 21
+2018-02-25_053055 TRANSACTION Making a Transaction 100561 with Amount : -3.0 to James
+2018-02-25_053055 PLAYER James Balance changed from : 63.0 to 60.0 :: BalanceVersion 22
+2018-02-25_053101 JOB_SERVER Triggering Player Data Save Job!
+2018-02-25_053101 MEMORY Saving Players from Memory into the Database : Started
+2018-02-25_053101 DATABASE Player Updated successfully : James
+2018-02-25_053101 DATABASE Player Updated successfully : Jane
+2018-02-25_053101 MEMORY Saving Players from Memory into the Database : Completed
+2018-02-25_053101 JOB_SERVER Player Data Save Job Completed!

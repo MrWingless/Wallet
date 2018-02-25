@@ -1,0 +1,19 @@
+2018-02-25_024757 LOGGER Created new Log File!
+2018-02-25_024757 JOB_SERVER Creating Server
+2018-02-25_024757 JOB_SERVER Starting Server
+2018-02-25_024757 TRANSACTION Making a Transaction 100560 with Amount : 30.0 to James
+2018-02-25_024757 DATABASE Found Player : James Balance : 13.0 BalanceVersion : 8
+2018-02-25_024757 PLAYER James Balance changed from : 13.0 to 43.0 :: BalanceVersion 9
+2018-02-25_024757 TRANSACTION Making a Transaction 100559 with Amount : -10.0 to James
+2018-02-25_024757 PLAYER James Balance changed from : 43.0 to 33.0 :: BalanceVersion 10
+2018-02-25_024757 TRANSACTION Making a Transaction 100557 with Amount : 30.0 to Jane
+2018-02-25_024757 DATABASE Found Player : Jane Balance : 14.0 BalanceVersion : 4
+2018-02-25_024757 PLAYER Jane Balance changed from : 14.0 to 44.0 :: BalanceVersion 5
+2018-02-25_024757 TRANSACTION Making a Transaction 100558 with Amount : -100.0 to Jane
+2018-02-25_024757 ERROR Player Jane does not have enough money for the transaction
+2018-02-25_024803 JOB_SERVER Triggering Player Data Save Job!
+2018-02-25_024803 MEMORY Saving Players from Memory into the Database : Started
+2018-02-25_024803 DATABASE Player Updated successfully : James
+2018-02-25_024803 DATABASE Player Updated successfully : Jane
+2018-02-25_024803 MEMORY Saving Players from Memory into the Database : Completed
+2018-02-25_024803 JOB_SERVER Player Data Save Job Completed!
