@@ -85,7 +85,8 @@ public final class DatabaseManager {
 
     public static boolean transactionExists(int transactionID) throws SQLException{
         boolean answer = false;
-        result = statement.executeQuery("SELECT COUNT(*) FROM TRANSACTIONHISTORY WHERE TRANSACTIONID = " + transactionID);
+        // Checking only the latest 1000 entries
+        result = statement.executeQuery("SELECT COUNT(*) FROM (SELECT * FROM TRANSACTIONHISTORY ORDER BY DATE DESC LIMIT 1000) WHERE TRANSACTIONID = " + transactionID);
         result.next();
         if (result.getInt("C1") > 0){
             answer = true;
