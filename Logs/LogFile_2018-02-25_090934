@@ -1,0 +1,19 @@
+2018-02-25_090934 LOGGER Created new Log File!
+2018-02-25_090934 CONFIGURATION Value Read from Conf File : TxLowerLimit : set as : -20
+2018-02-25_090934 CONFIGURATION Value Read from Conf File : TxUpperLimit : set as : 30
+2018-02-25_090934 CONFIGURATION Value Read from Conf File : DebugMode : set as : 1
+2018-02-25_090934 INFORMATIVE Balance Change Lower Limit = -20.0
+2018-02-25_090934 INFORMATIVE Balance Change Upper Limit = 30.0
+2018-02-25_090934 JOB_SERVER Creating Server
+2018-02-25_090934 JOB_SERVER Starting Server
+2018-02-25_090934 TRANSACTION Making a Transaction 100560 with Amount : -3.0 to James
+2018-02-25_090934 DATABASE Found Player : James Balance : 57.0 BalanceVersion : 23
+2018-02-25_090934 PLAYER James Balance changed from : 57.0 to 54.0 :: BalanceVersion 24
+2018-02-25_090940 JOB_SERVER Triggering Data Save Job!
+2018-02-25_090940 MEMORY Saving Players from Memory into the Database : Started
+2018-02-25_090940 DATABASE Player Updated successfully : James
+2018-02-25_090940 MEMORY Saving Players from Memory into the Database : Completed
+2018-02-25_090940 MEMORY Saving Transaction History from Memory into the Database : Started
+2018-02-25_090940 DATABASE Transaction 100560 added to Database
+2018-02-25_090940 MEMORY Saving Transaction History from Memory into the Database : Completed
+2018-02-25_090940 JOB_SERVER Data Save Job Completed!

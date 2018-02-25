@@ -19,9 +19,9 @@ public class JobServer implements Runnable {
                 Logger.log(LOG_TYPE, "Waiting Failure!");
                 Logger.log(Logger.LogType.ERROR, "JobServer Failure : " + e.getStackTrace().toString());
             }
-            Logger.log(LOG_TYPE, "Triggering Player Data Save Job!");
+            Logger.log(LOG_TYPE, "Triggering Data Save Job!");
             Memory.saveData();
-            Logger.log(LOG_TYPE, "Player Data Save Job Completed!");
+            Logger.log(LOG_TYPE, "Data Save Job Completed!");
             running = false; // TODO : Remove this line
         }
     }

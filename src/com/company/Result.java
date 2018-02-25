@@ -3,8 +3,8 @@ package com.company;
 import java.util.HashMap;
 
 public abstract class Result {
-    public int code;
-    public Type errorType;
+    protected int code;
+    protected Type errorType;
     protected enum Type {
         SUCCESS,
         ERROR_SYSTEM,

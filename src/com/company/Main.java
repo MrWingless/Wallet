@@ -10,22 +10,20 @@ public class Main {
         Configuration conf = new Configuration();
         DatabaseManager dbm = new DatabaseManager();
 
-        /**
+
         // TESTING JOB SERVER
         JobServer js = new JobServer();
-        js.start();**/
+        js.start();
 
         // TESTING TRANSACTIONS AND DB
-        Transaction t1 = new Transaction("James", 100560, 30);
+        Transaction t1 = new Transaction("James", 100560, -3);
         Transaction t2 = new Transaction("James", 100559, -10);
         Transaction t21 = new Transaction("James", 100562, -8);
         Transaction t22 = new Transaction("James", 100561, -3);
         Transaction t3 = new Transaction("Jane", 100557, 30);
         Transaction t4 = new Transaction("Jane", 100558, -100);
 
-        Result r = t1.make();
-        System.out.println(r.code);
-        System.out.println(r.errorType.toString());
+        t1.make();
         /**
         t2.make();
         t3.make();

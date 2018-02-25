@@ -1,0 +1,9 @@
+2018-02-25_074544 LOGGER Created new Log File!
+2018-02-25_074544 CONFIGURATION Value Read from Conf File : TxLowerLimit : set as : -20
+2018-02-25_074544 CONFIGURATION Value Read from Conf File : TxUpperLimit : set as : 30
+2018-02-25_074544 CONFIGURATION Value Read from Conf File : DebugMode : set as : 1
+2018-02-25_074544 INFORMATIVE Balance Change Lower Limit = -20.0
+2018-02-25_074544 INFORMATIVE Balance Change Upper Limit = 30.0
+2018-02-25_074544 TRANSACTION Making a Transaction 100560 with Amount : -3000.0 to James
+2018-02-25_074544 DATABASE Found Player : James Balance : 60.0 BalanceVersion : 22
+2018-02-25_074544 TRANSACTION Transaction Amount : -3000.0 Exceeds the current limit : -20.0

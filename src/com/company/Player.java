@@ -24,10 +24,11 @@ public class Player {
         return balance;
     }
 
-    public void changeBalance(double change){
+    public double changeBalance(double change){
         double oldBalance = balance;
         balance = balance + change;
         balanceVersion++;
         Logger.log(LOG_TYPE, "" + username + " Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
+        return oldBalance;
     }
 }

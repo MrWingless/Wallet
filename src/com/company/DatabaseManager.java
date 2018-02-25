@@ -1,9 +1,11 @@
 package com.company;
 
 import java.sql.*;
+import java.text.SimpleDateFormat;
 
 // Writes and reads database entries
 public final class DatabaseManager {
+    public static final SimpleDateFormat DB_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
     private static final Logger.LogType LOG_TYPE = Logger.LogType.DATABASE;
     private static Connection connection = null;
     private static Statement statement = null;
@@ -41,7 +43,7 @@ public final class DatabaseManager {
     }
 
     public static void savePlayer(Player player) throws SQLException {
-        if (playerExists(player)) {
+        if (playerExists(player.getUsername())) {
             statement.executeQuery("UPDATE PLAYER SET BALANCE = " + player.getBalance() + ", BALANCE_VERSION = " + player.getBalanceVersion() + " WHERE USERNAME = '" + player.getUsername() + "'");
             Logger.log(LOG_TYPE, "Player Updated successfully : " + player.getUsername());
         } else {
@@ -50,13 +52,33 @@ public final class DatabaseManager {
         }
     }
 
-    private static boolean playerExists(Player player) throws SQLException {
+    public static void saveTransaction(Transaction transaction) throws SQLException{
+        if (transactionExists(transaction.getTransactionID())){
+            Logger.log(Logger.LogType.FAILURE, "Trying to save a Transaction that's already in DB. Should not be possible.");
+        } else {
+            statement.executeQuery("INSERT INTO TRANSACTIONHISTORY (TRANSACTIONID, USERNAME, ERRORCODE, AMOUNT, DATE, BALANCEBEFORE, BALANCEAFTER, BALANCEVERSION) VALUES ("+transaction.getTransactionID()+", '"+transaction.getUsername()+"', " + transaction.getResult().getCode() + ", " + transaction.getBalanceChangeAmount() + ", '" + DB_DATE_FORMAT.format(transaction.getDateTime()) + "', " + (Double.toString(transaction.getBalanceBefore()) ==  "" ? "NULL" : transaction.getBalanceBefore()) + ", " + transaction.getBalanceAfter() + ", " + transaction.getBalanceVersion() + ")");
+            Logger.log(LOG_TYPE, "Transaction "+ transaction.getTransactionID() + " added to Database");
+        }
+    }
+
+    private static boolean playerExists(String username) throws SQLException {
         boolean answer = false;
-        result = statement.executeQuery("SELECT COUNT(*) FROM PLAYER WHERE USERNAME = '" + player.getUsername() + "'");
+        result = statement.executeQuery("SELECT COUNT(*) FROM PLAYER WHERE USERNAME = '" + username + "'");
         result.next();
         if (result.getInt("C1") > 0) {
             answer = true;
         }
         return answer;
     }
+
+    protected static boolean transactionExists(int transactionID) throws SQLException{
+        boolean answer = false;
+        result = statement.executeQuery("SELECT COUNT(*) FROM TRANSACTIONHISTORY WHERE TRANSACTIONID = " + transactionID);
+        result.next();
+        if (result.getInt("C1") > 0){
+            answer = true;
+        }
+        return answer;
+    }
+
 }
