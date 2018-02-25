@@ -21,6 +21,7 @@ public class JobServer implements Runnable {
             }
             Logger.log(logType, "Triggering Player Data Save Job!");
             Memory.saveData();
+            Logger.log(logType, "Player Data Save Job Completed!");
             running = false; // TODO : Remove this line
         }
     }

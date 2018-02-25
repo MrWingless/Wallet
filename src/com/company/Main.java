@@ -14,9 +14,9 @@ public class Main {
         js.start();
 
         // TESTING TRANSACTIONS AND DB
-        Transaction t1 = new Transaction("James", 100560, 15);
+        Transaction t1 = new Transaction("James", 100560, 30);
         Transaction t2 = new Transaction("James", 100559, -10);
-        Transaction t3 = new Transaction("Jane", 100557, 4);
+        Transaction t3 = new Transaction("Jane", 100557, 30);
         Transaction t4 = new Transaction("Jane", 100558, -10);
 
         t1.make();

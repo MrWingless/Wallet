@@ -28,6 +28,6 @@ public class Player {
         double oldBalance = balance;
         balance = balance + change;
         balanceVersion++;
-        Logger.log(logType, "Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
+        Logger.log(logType, "" + username + " Balance changed from : " + oldBalance + " to " + balance + " :: BalanceVersion " + balanceVersion);
     }
 }

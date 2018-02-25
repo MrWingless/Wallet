@@ -23,8 +23,8 @@ public final class DatabaseManager {
     public static Player getPlayer(String username) {
         Player player = null;
         try {
-            result = statement.executeQuery("SELECT USERNAME, BALANCE_VERSION, BALANCE FROM PLAYER");
-
+            result = statement.executeQuery("SELECT USERNAME, BALANCE_VERSION, BALANCE FROM PLAYER WHERE USERNAME = '" + username + "'");
+            result.next();
             if (result.getRow() < 1) {
                 Logger.log(logType, "The player Does not exist in our Database. Creating : " + username);
                 player = new Player(username, 0, 0);
