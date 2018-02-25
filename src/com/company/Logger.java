@@ -33,7 +33,7 @@ public class Logger {
         PLAYER,
         CONFIGURATION,
         JOB_SERVER,
-        INFORMATIVE
+        FAILURE, INFORMATIVE
     }
 
     public static void setDebugMode(boolean debugMode) {

@@ -5,6 +5,7 @@ public class Transaction {
     private String username;
     private int transactionID;
     private double balanceChange;
+    private Result result;
 
     public Transaction(String username, int transactionID, double balanceChange) {
         this.username = username;
@@ -28,15 +29,38 @@ public class Transaction {
         Logger.log(LOG_TYPE, "Making a Transaction " + transactionID + " with Amount : " + balanceChange + " to " + username);
         Player ourPlayer = Memory.getPlayer(username);
 
-        // Checking if the changes is withing configured limits
+        if (!transactionStaysWithinConfiguredLimits()) {
+            return result = new ResultFail(65, Result.Type.ERROR_TRANSACTION_EXCEEDS_LIMITS);
+            //return result;
+        }
 
         // Checking if player has enough money for the transaction
         if ((ourPlayer.getBalance() + balanceChange) < 0) {
             Logger.log(Logger.LogType.ERROR, "Player " + ourPlayer.getUsername() + " does not have enough money for the transaction. Balance : " + ourPlayer.getBalance() + " | Change amount : " + balanceChange);
-            return new ResultFail(55, Result.Type.ERROR_NOT_ENOUGH_MONEY);
+            return result = new ResultFail(55, Result.Type.ERROR_NOT_ENOUGH_MONEY);
+            //return result;
         } else {
+
+            // Makes the transaction
             ourPlayer.changeBalance(balanceChange);
-            return new ResultSuccess();
+            return result = new ResultSuccess();
+            //return result;
         }
+    }
+
+    private boolean transactionStaysWithinConfiguredLimits() {
+        if (balanceChange < 0) {
+            if (Configuration.getBalanceChangeLowerLimit() > balanceChange) {
+                Logger.log(LOG_TYPE, "Transaction Amount : " + balanceChange + " Exceeds the current limit : " + Configuration.getBalanceChangeLowerLimit());
+                return false;
+            }
+        }
+        if (balanceChange > 0) {
+            if (Configuration.getBalanceChangeUpperLimit() < balanceChange) {
+                Logger.log(LOG_TYPE, "Transaction Amount : " + balanceChange + " Exceeds the current limit : " + Configuration.getBalanceChangeLowerLimit());
+                return false;
+            }
+        }
+        return true;
     }
 }

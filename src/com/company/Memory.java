@@ -7,6 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public final class Memory {
     private static final Logger.LogType LOG_TYPE = Logger.LogType.MEMORY;
     public static final ConcurrentHashMap<String, Player> PLAYERS_IN_MEMORY = new ConcurrentHashMap<>();
+    public static final ConcurrentHashMap<String, TransactionHistoryEntry> TRANSACTION_HISTORY = new ConcurrentHashMap<>();
 
     public static boolean playerExistsInMemory(String username){
         return PLAYERS_IN_MEMORY.containsKey(username);

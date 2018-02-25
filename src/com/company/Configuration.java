@@ -10,8 +10,8 @@ public final class Configuration {
     private static final Logger.LogType LOG_TYPE = Logger.LogType.CONFIGURATION;
     private static final String CONFIG_FILE_NAME_LOCATION = "Conf\\Config.txt";
     private static final Path CONF_FILE_PATH = Paths.get(CONFIG_FILE_NAME_LOCATION);
-    private double balanceChangeLowerLimit = -1000000;
-    private double balanceChangeUpperLimit = 1000000;
+    private static double balanceChangeLowerLimit = -1000000;
+    private static double balanceChangeUpperLimit = 1000000;
 
     public Configuration() {
         try {
@@ -38,11 +38,11 @@ public final class Configuration {
         Logger.log(Logger.LogType.INFORMATIVE, "Balance Change Upper Limit = " + balanceChangeUpperLimit);
     }
 
-    public double getBalanceChangeLowerLimit() {
+    public static double getBalanceChangeLowerLimit() {
         return balanceChangeLowerLimit;
     }
 
-    public double getBalanceChangeUpperLimit() {
+    public static double getBalanceChangeUpperLimit() {
         return balanceChangeUpperLimit;
     }
 

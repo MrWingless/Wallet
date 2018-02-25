@@ -1,19 +1,17 @@
 package com.company;
 
 public class ResultFail extends Result {
-    public int code;
-    public Type type;
 
     public ResultFail(int code, Type type) {
-        this.code = code;
-        this.type = type;
+        if (type != Result.ERROR_TYPES.get(code)){
+            Logger.log(Logger.LogType.FAILURE, "Wrong Error code was assigned with the wrong Error Type :O");
+        }
+        super.code = code;
+        super.errorType = type;
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public Type getType() {
-        return type;
+    public ResultFail(int code) {
+        super.code = code;
+        super.errorType = Result.ERROR_TYPES.get(code);
     }
 }
